@@ -1,0 +1,4 @@
+# author: Wojciech Mruk
+# Dublin: 2021-05-02
+# Small script to convert SilverStripe configuration from SS3 to SS4
+
