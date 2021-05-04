@@ -1,0 +1,23 @@
+[
+  {
+    "question": "How many legs does a horse have?",
+    "a": 4,
+    "b": 6,
+    "c": 2,
+    "answer": "a"
+  },
+  {
+    "question": "how many legs does a spider have?",
+    "a": 4,
+    "b": 8,
+    "c": 2,
+    "answer": "b"
+  },
+  {
+    "question": "How many hands does Goro have?",
+    "a": 2,
+    "b": 1,
+    "c": 4,
+    "answer": "c"
+  }
+]

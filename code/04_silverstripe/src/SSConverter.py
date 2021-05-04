@@ -50,6 +50,18 @@ class SSConverter:
         replacement = '"'
         self.text = self.regex(search_term, replacement, self.text)
 
+        search_term = re.compile(r'(\'|\"), true\);')
+        replacement = '=true'
+        self.text = self.regex(search_term, replacement, self.text)
+
+        search_term = re.compile(r'(\'|\"), false\);')
+        replacement = '=false'
+        self.text = self.regex(search_term, replacement, self.text)
+
+        search_term = re.compile(r'(\'|\"), false\);')
+        replacement = '=false'
+        self.text = self.regex(search_term, replacement, self.text)
+
         return self.text
 
     def php_elements(self):
